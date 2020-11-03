@@ -14,12 +14,12 @@ namespace VirtualJourney.Services
         {
             items = new List<Item>()
             {
-                new Item { Id = Guid.NewGuid().ToString(), Text = "First item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Second item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." }
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Moodle", Description="This is Moodle item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "SISU", Description="This is SISU description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "News ", Description="This is News description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Study Space", Description="This is Study Space description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Course Information", Description="This is Course Information description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Events", Description="This is Events description." }
             };
         }
 

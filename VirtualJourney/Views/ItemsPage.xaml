@@ -38,6 +38,7 @@
                         </StackLayout.GestureRecognizers>
                     </StackLayout>
                 </DataTemplate>
+
             </CollectionView.ItemTemplate>
         </CollectionView>
     </RefreshView>

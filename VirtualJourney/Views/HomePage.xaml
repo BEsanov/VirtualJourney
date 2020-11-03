@@ -1,20 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="VirtualJourney.Views.HomePage">
+             x:Class="VirtualJourney.Views.HomePage"
+             Visual="Material"
+             Title="Home Screen">
+
+  <!-- <StackLayout>
+        <Label Text="My Fovorites" />
+    </StackLayout>
+
+    -->
+
+    <!-- <Image x:Name="LUTUni" 
+            Source="https://www.ifi.uzh.ch/dam/jcr:5458474c-0397-4d4a-b783-56019e22ea68/LUT_Autumn.jpg"
+               Aspect="AspectFill"
+               HorizontalOptions="CenterAndExpand"/>
+-->
 
 
-    <FlexLayout>
 
-        <Button Text="rtyrtytrytry" />
-        <Button Text="rtyrtytrytry" />
-        <Button Text="rtyrtytrytry" />
-        <Button Text="rtyrtytrytry" />
-        <Button Text="rtyrtytrytry" />
-        <Button Text="rtyrtytrytry" />
-        <Button Text="rtyrtytrytry" />
+    <Grid BackgroundColor="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <BoxView Grid.Row="0" Grid.Column="0" BackgroundColor="White" Background="https://tracker.moodle.org/secure/attachment/68503/Moodle_Circle_M_RGB.png"/>
+        <Label Text="Moodle" Grid.Row="0" Grid.Column="0" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Background="https://tracker.moodle.org/secure/attachment/68503/Moodle_Circle_M_RGB.png"/>
+        <BoxView Grid.Row="0" Grid.Column="1" BackgroundColor="White" />
+        <Label Text="SISU" Grid.Row="0" Grid.Column="1" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+        <BoxView Grid.Row="0" Grid.Column="2" BackgroundColor="White" />
+        <Label Text="News" Grid.Row="0" Grid.Column="2" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+        <BoxView Grid.Row="1" Grid.Column="0" BackgroundColor="White" />
+        <Label Text="Library" Grid.Row="1" Grid.Column="0" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+        <BoxView Grid.Row="1" Grid.Column="1" BackgroundColor="White" />
+        <Label Text="Dining" Grid.Row="1" Grid.Column="1" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+        <BoxView Grid.Row="1" Grid.Column="2" BackgroundColor="White" />
+        <Label Text="Events" Grid.Row="1" Grid.Column="2" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+        <BoxView Grid.Row="2" Grid.Column="0" BackgroundColor="White" />
+        <Label Text="Timetable" Grid.Row="2" Grid.Column="0" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+        <BoxView Grid.Row="2" Grid.Column="1" BackgroundColor="White" />
+        <Label Text="Study Space" Grid.Row="2" Grid.Column="1" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+        <BoxView Grid.Row="2" Grid.Column="2" BackgroundColor="White" />
+        <Label Text="Internal Chat" Grid.Row="2" Grid.Column="2" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
 
-    </FlexLayout>
+
+    </Grid>
+
+
+    
+
+
     <!--  <ListView x:Name="MyListView"> -->
     <!--Built in Cells-->
       
